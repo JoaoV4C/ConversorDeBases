@@ -34,7 +34,7 @@ def hexa_octa_para_binario(bits,numero):
         resultado += parcial
     return resultado
 
-def binario_para_hexa_octa(base, bits, numero):
+def binario_para_hexa_octa(bits, numero):
     resultado = ""
     while len(numero) % bits > 0:
         numero = "0" + numero
